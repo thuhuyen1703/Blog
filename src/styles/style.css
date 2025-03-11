@@ -1,0 +1,12 @@
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px; /* Thanh cuộn nhỏ hơn */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #4b5563, #9ca3af); /* Hiệu ứng gradient */
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent; /* Ẩn track */
+}
