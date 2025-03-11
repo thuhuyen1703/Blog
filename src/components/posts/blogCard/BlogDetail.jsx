@@ -103,7 +103,7 @@ const BlogDetail = () => {
                             </div>
                             <div className="p-6">
                                 <h2 className="text-2xl font-semibold mb-3 dark:text-white">Comments</h2>
-                                <div className="space-y-6 max-h-80 overflow-y-auto  ">
+                                <div className="space-y-6 max-h-80 overflow-y-auto custom-scrollbar ">
                                     {comments.map((comment) => (
                                         <div key={comment.id} className="flex items-start space-x-4 p-4 border-b border-gray-300 dark:border-gray-600">
                                             <img
