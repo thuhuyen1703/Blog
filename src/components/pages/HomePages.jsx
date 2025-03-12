@@ -1,7 +1,6 @@
 import React from "react";
 import BlogList from "../posts/blogCard/BlogList";
 import { useState, useEffect } from "react";
-import BlogDetail from "../posts/blogCard/BlogDetail";
 import { ArrowUpIcon } from "@heroicons/react/24/solid";
 
 export default function HomePage() {

@@ -3,7 +3,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { MoonIcon, SunIcon } from "@heroicons/react/24/solid";
 
 function Header() {
-    const navigate = useNavigate();
+   // const navigate = useNavigate();
     const [darkMode, setDarkMode] = useState(
         localStorage.getItem("theme") === "dark"
     );
@@ -47,7 +47,7 @@ function Header() {
                             Project
                         </NavLink>
                     </li>
-                    <li>
+                    {/* <li>
                         <NavLink
                             to="/about"
                             className={({ isActive }) =>
@@ -56,7 +56,7 @@ function Header() {
                         >
                             About
                         </NavLink>
-                    </li>
+                    </li> */}
                     {/* <li>
                         <NavLink
                             to="/newsletter"

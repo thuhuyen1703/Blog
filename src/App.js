@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import HomePage from './components/pages/HomePages';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import { Link, NavLink, Route, Router, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import BlogDetail from './components/posts/blogCard/BlogDetail';
 import ProjectList from './components/posts/project/ProjectList';
 function App() {

@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { ArrowPathIcon } from "@heroicons/react/24/solid";
 import { fetchPosts } from "../../../api/BlogList";
-import BlogCard from "../blogCard/BlogCard";
-import BlogCardRight from "../blogCard/BlogCardRight";
 import BlogGrid from "../blogCard/BlogGrid";
 
 const ProjectList = () => {
