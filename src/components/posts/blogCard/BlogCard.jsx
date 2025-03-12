@@ -13,7 +13,7 @@ const BlogCard = ({ slug, image, author, date, title, description, tags }) => {
                         <p className="text-sm text-gray-500 ">
                             <span className="font-semibold dark:text-white">{author}</span> • {new Date(date).toLocaleDateString("en-EN")}
                         </p>
-                        <h2 className="text-xl font-bold mt-2 line-clamp-1 hover:underline hover:underline-offset-2 hover:text-green-700 hover:cursor-pointer dark:hover:text-white " onClick={() => navigate(`/post/${slug}`)}>{title}</h2>
+                        <h2 className="text-xl font-bold mt-2 line-clamp-1  hover:text-green-700 hover:cursor-pointer dark:hover:text-white " onClick={() => navigate(`/post/${slug}`)}>{title}</h2>
                         <div className="text-gray-600 mt-2 dark:text-[#C0C5D0] line-clamp-2"
                             dangerouslySetInnerHTML={{ __html: description }}
                         />
