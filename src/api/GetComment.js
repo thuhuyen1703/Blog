@@ -17,7 +17,6 @@ export const fetchCommentsById = async (id) => {
         content: comment.content,
         date: comment.createdAt,
         avatar: comment.user_image,
-        date: comment.createdAt 
       }));
     } catch (error) {
       console.error("Error fetching comments:", error);

@@ -7,7 +7,7 @@ export default function Footer() {
 
         <div className="text-xs pt-3">
           &copy;2025 <span className="font-bold">Soledad</span>, A Media Company – All Rights Reserved. Designed and Developed by
-          <a href="#" className="text-green-500 hover:underline"> Penci Design</a>
+          <a href="/" className="text-green-500 hover:underline"> Penci Design</a>
         </div>
       </footer>
     </>
